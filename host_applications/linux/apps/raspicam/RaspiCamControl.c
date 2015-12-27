@@ -56,7 +56,8 @@ static XREF_T  exposure_map[] =
    {"verylong",      MMAL_PARAM_EXPOSUREMODE_VERYLONG},
    {"fixedfps",      MMAL_PARAM_EXPOSUREMODE_FIXEDFPS},
    {"antishake",     MMAL_PARAM_EXPOSUREMODE_ANTISHAKE},
-   {"fireworks",     MMAL_PARAM_EXPOSUREMODE_FIREWORKS}
+   {"fireworks",     MMAL_PARAM_EXPOSUREMODE_FIREWORKS},
+   {"custom", custom_exposure}
 };
 
 static const int exposure_map_size = sizeof(exposure_map) / sizeof(exposure_map[0]);

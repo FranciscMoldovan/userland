@@ -163,6 +163,7 @@ typedef struct MMAL_PARAMETER_EXIF_T
 /** Exposure modes. */
 typedef enum
 {
+   custom_exposure,
    MMAL_PARAM_EXPOSUREMODE_OFF,
    MMAL_PARAM_EXPOSUREMODE_AUTO,
    MMAL_PARAM_EXPOSUREMODE_NIGHT,
