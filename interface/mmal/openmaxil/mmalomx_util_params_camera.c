@@ -158,6 +158,7 @@ static const MMALOMX_PARAM_ENUM_TRANSLATE_T mmalomx_param_enum_mirror[] = {
 };
 
 static const MMALOMX_PARAM_ENUM_TRANSLATE_T mmalomx_param_enum_exposure_mode[] = {
+   {custom_exposure,                       OMX_ExposureControlMax},
    {MMAL_PARAM_EXPOSUREMODE_OFF,           OMX_ExposureControlOff},
    {MMAL_PARAM_EXPOSUREMODE_AUTO,          OMX_ExposureControlAuto},
    {MMAL_PARAM_EXPOSUREMODE_NIGHT,         OMX_ExposureControlNight},
